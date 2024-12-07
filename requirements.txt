@@ -83,9 +83,9 @@ coverage[toml]==7.6.1 \
     --hash=sha256:fc5a77d0c516700ebad189b587de289a20a78324bc54baee03dd486f0855d234 \
     --hash=sha256:fd21f6ae3f08b41004dfb433fa895d858f3f5979e7762d052b12aef444e29afc
     # via pytest-cov
-Django==5.1 \
-    --hash=sha256:848a5980e8efb76eea70872fb0e4bc5e371619c70fffbe48e3e1b50b2c09455d \
-    --hash=sha256:d3b811bf5371a26def053d7ee42a9df1267ef7622323fe70a601936725aa4557
+Django==5.1.4 \
+    --hash=sha256:236e023f021f5ce7dee5779de7b286565fdea5f4ab86bae5338e3f7b69896cf0 \
+    --hash=sha256:de450c09e91879fa5a307f696e57c851955c910a438a35e6b4c895e86bedc82a
     # via -r requirements.in
 iniconfig==2.0.0 \
     --hash=sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3 \
