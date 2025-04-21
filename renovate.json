@@ -3,6 +3,12 @@
   "extends": [
     "config:recommended"
   ],
+  "pip_requirements": {
+    "enabled": false
+  },
+  "pip_setup": {
+    "enabled": false
+  },
   "pip-compile": {
     "fileMatch": ["requirements.txt", "requirements-test.txt"]
   },
