@@ -3,6 +3,10 @@
   "extends": [
     "config:recommended"
   ],
+  "postUpgradeTasks": {
+          "command": ["make"],
+          "fileFilters": ["requirements.txt", "requirements-test.txt"]
+  },
   "packageRules": [
     {
       "groupName": "python-updates",
