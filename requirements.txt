@@ -130,9 +130,9 @@ jsonschema-specifications==2024.10.1 \
     --hash=sha256:0f38b83639958ce1152d02a7f062902c41c8fd20d558b0c34344292d417ae272 \
     --hash=sha256:a09a0680616357d9a0ecf05c12ad234479f549239d0f5b55f3deea67475da9bf
     # via jsonschema
-oras==0.2.25 \
-    --hash=sha256:6a9788f47265034c4a56e1ffb911a969eca5b1e633d651c065d2f68eb90333bf \
-    --hash=sha256:96fc22cada3da820dcb69d08b1b0595f9b9a7a091e3d8158ad72040fec1b088d
+oras==0.2.28 \
+    --hash=sha256:8133da3361af0a25af8d0c3535210109700c5dd6877b3f305e476daaa420750d \
+    --hash=sha256:e46f6ef4199a2a1b19827c84f60f86193150a511a2cdb1cf7f69aea211c5f417
     # via simple-python-app-fedora (pyproject.toml)
 referencing==0.36.2 \
     --hash=sha256:df2e89862cd09deabbdba16944cc3f10feb6b3e6f18e902f7cc25609a34775aa \
@@ -262,7 +262,7 @@ rpds-py==0.24.0 \
     # via
     #   jsonschema
     #   referencing
-ruamel-yaml==0.18.6 \
+ruamel-yaml==0.18.10 \
     --hash=sha256:57b53ba33def16c4f3d807c0ccbc00f8a6081827e81ba2491691b76882d0c636 \
     --hash=sha256:8b27e6a217e786c6fbe5634d8f3f11bc63e0f80f6a5890f28863d9c45aac311b
     # via simple-python-app-fedora (pyproject.toml)
@@ -314,9 +314,9 @@ ruamel-yaml-clib==0.2.12 \
     --hash=sha256:fc4b630cd3fa2cf7fce38afa91d7cfe844a9f75d7f0f36393fa98815e911d987 \
     --hash=sha256:fd5415dded15c3822597455bc02bcd66e81ef8b7a48cb71a33628fc9fdde39df
     # via ruamel-yaml
-sqlparse==0.5.1 \
-    --hash=sha256:773dcbf9a5ab44a090f3441e2180efe2560220203dc2f8c0b0fa141e18b505e4 \
-    --hash=sha256:bb6b4df465655ef332548e24f08e205afc81b9ab86cb1c45657a7ff173a3a00e
+sqlparse==0.5.3 \
+    --hash=sha256:09f67787f56a0b16ecdbde1bfc7f5d9c3371ca683cfeaa8e6ff60b4807ec9272 \
+    --hash=sha256:cf2196ed3418f3ba5de6af7e82c694a9fbdbfecccdfc72e281548517081f16ca
     # via django
 typing-extensions==4.13.2 \
     --hash=sha256:a439e7c04b49fec3e5d3e2beaa21755cadbbdc391694e28ccdd36ca4a1408f8c \
@@ -326,3 +326,6 @@ urllib3==2.4.0 \
     --hash=sha256:414bc6535b787febd7567804cc015fee39daab8ad86268f1310a9250697de466 \
     --hash=sha256:4e16665048960a0900c702d4a66415956a584919c03361cac9f1df5c5dd7e813
     # via requests
+ruamel.yaml==0.18.10 \
+    --hash=sha256:20c86ab29ac2153f80a428e1254a8adf686d3383df04490514ca3b79a362db58 \
+    --hash=sha256:30f22513ab2301b3d2b577adc121c6471f28734d3d9728581245f1e76468b4f1
