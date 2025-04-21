@@ -22,7 +22,7 @@ dynamic = ["version", "dependencies", "optional-dependencies"]
 
 [tool.setuptools.dynamic]
 dependencies = { file = ["requirements.in"] }
-optional-dependencies.test = { file = ["requirements-test.txt"] }
+optional-dependencies.test = { file = ["requirements-test.in"] }
 
 [project.urls]
 Homepage = "https://github.com/cqi-stonesoup-test/simple-python-app-fedora"
