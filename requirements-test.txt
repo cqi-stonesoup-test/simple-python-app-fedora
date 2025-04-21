@@ -221,9 +221,9 @@ jsonschema-specifications==2024.10.1 \
     --hash=sha256:0f38b83639958ce1152d02a7f062902c41c8fd20d558b0c34344292d417ae272 \
     --hash=sha256:a09a0680616357d9a0ecf05c12ad234479f549239d0f5b55f3deea67475da9bf
     # via jsonschema
-oras==0.2.25 \
-    --hash=sha256:6a9788f47265034c4a56e1ffb911a969eca5b1e633d651c065d2f68eb90333bf \
-    --hash=sha256:96fc22cada3da820dcb69d08b1b0595f9b9a7a091e3d8158ad72040fec1b088d
+oras==0.2.28 \
+    --hash=sha256:8133da3361af0a25af8d0c3535210109700c5dd6877b3f305e476daaa420750d \
+    --hash=sha256:e46f6ef4199a2a1b19827c84f60f86193150a511a2cdb1cf7f69aea211c5f417
     # via simple-python-app-fedora (pyproject.toml)
 packaging==25.0 \
     --hash=sha256:29572ef2b1f17581046b3a2227d5c611fb25ec70ca1ba8554b24b0e69331a484 \
