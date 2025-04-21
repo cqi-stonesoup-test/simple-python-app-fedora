@@ -4,7 +4,7 @@
     "config:recommended"
   ],
   "postUpgradeTasks": {
-          "command": ["make"],
+          "commands": ["make"],
           "fileFilters": ["requirements.txt", "requirements-test.txt"]
   },
   "packageRules": [
