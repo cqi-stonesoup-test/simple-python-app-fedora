@@ -3,12 +3,14 @@
   "extends": [
     "config:recommended"
   ],
+  "pip-compile": {
+    "fileMatch": ["requirements.txt", "requirements-test.txt"]
+  },
   "packageRules": [
     {
       "groupName": "python-updates",
       "matchDatasources": ["pypi"],
-      "matchManagers": ["pip-compile"],
-      "fileMatch": ["requirements.txt", "requirements-test.txt"]
+      "matchManagers": ["pip-compile"]
     }
   ]
 }
