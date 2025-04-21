@@ -3,14 +3,12 @@
   "extends": [
     "config:recommended"
   ],
-  "postUpgradeTasks": {
-          "commands": ["make"],
-          "fileFilters": ["requirements.txt", "requirements-test.txt"]
-  },
   "packageRules": [
     {
       "groupName": "python-updates",
-      "matchDatasources": ["pypi"]
+      "matchDatasources": ["pypi"],
+      "matchManagers": ["pip-compile"],
+      "fileMatch": ["requirements.txt", "requirements-test.txt"]
     }
   ]
 }
